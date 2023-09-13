@@ -192,7 +192,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	color: #ff6f00;
 }
 .ast_autho_wrapper li a:hover{
-	color: #ff6f00;
+	/* color: #ff6f00; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -313,7 +313,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_contact_details ul li a:hover{
-    color: #ff6f00;
+    /* color: #ff6f00; */
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -403,7 +403,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_menu ul li a:hover:after{
 	opacity:1;
 	visibility:visible;
-	background-color: #ff6f00;
+	/* background-color: #ff6f00; */
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -440,7 +440,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_menu ul li ul.submenu li a:hover{
 	border-top:0px;
-	background-color: #ff6f00;
+	/* background-color: #ff6f00; */
 	color: #ffffff;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -828,7 +828,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_btn:hover, .ast_btn:focus{
 	background-color:transparent;
 	color:#ff6f00;
-	border:1px solid #ff6f00;
+	/* border:1px solid #ff6f00; */
 	outline:none;
 	box-shadow:none;
 	-webkit-transition: all 0.5s;
@@ -1065,7 +1065,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_service_box:hover h4{
-	color: #ff6f00;
+	/* color: #ff6f00; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1115,7 +1115,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color:#ffffff;
 }
 .ast_service_slider .owl-theme .owl-nav [class*='owl-']:hover{
-	background-color: #ff6f00;
+	/* background-color: #ff6f00; */
 	color:#ffffff;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1214,7 +1214,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-bottom:0px;
 }
 .ast_vedic_astrology ul li:hover a .ast_vedic_astro_info h5{
-    color: #ff6f00;
+    /* color: #ff6f00; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1391,7 +1391,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_packages_box:hover .ast_price{
-	background-color: #ff6f00;
+	/* background-color: #ff6f00; */
     -webkit-box-shadow: 0px 0px 30px -10px #000000;
     -moz-box-shadow: 0px 0px 30px -10px #000000;
     -o-box-shadow: 0px 0px 30px -10px #000000;
@@ -3618,14 +3618,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 	    font-size: 20px;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
 .ast_packages_box ul li {
     padding-left: 50px;
 }
 .ast_horoscope_box h4{
 	font-size:18px;
 }
-}
+} */
 @media (min-width: 768px) and (max-width: 991px) {
 .ast_footer_wrapper {
     position: initial;
@@ -5474,36 +5474,149 @@ li.ast_search , li.ast_cart{
     margin-top: 130px;
 } */
 }	
-						
 
+/* Preloader */
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Background color with transparency */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; /* Make sure it appears above other elements */
-  }
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.91);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+#preloader.hide {
+  opacity: 0;
+  visibility: hidden;
+  width: 0%;
+}
+
+#preloader .hide-loader {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  z-index: 3;
+  transition: all 1s ease-in-out;
+}
+
+#preloader.hide .hide-loader {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.preloader-inner {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Spinner Loading */
+.preloader-inner .spinner {
+  animation: spinner 1s infinite linear;
+  border-radius: 50%;
+  border: 3px solid #2e2e2e;
+  border-top-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 3.5em auto;
+}
+
+/* Loading text */
+.preloader-inner .loading-text {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#preloader.hide .preloader-inner .loading-text {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.preloader-inner .loading-text .characters {
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.preloader-inner .loading-text .characters:before {
+  content: attr(data-preloader-text);
+  position: absolute;
+  left: 0;
+  top: 0px;
+  opacity: 0;
+  transform: rotateY(-90deg);
+  color: white;
+  animation: characters 4s infinite;
   
-  .preloader-inner img {
-    max-width: 100%;
-    opacity: 0; /* Initially hidden */
-    animation: fade 2s ease-in-out infinite; /* Add fade-in and fade-out animation */
+}
+
+.preloader-inner .loading-text .characters:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+
+.preloader-inner .loading-text .characters:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+
+.preloader-inner .loading-text .characters:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+
+.preloader-inner .loading-text .characters:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+
+.preloader-inner .loading-text .characters:nth-child(6):before {
+  animation-delay: 1s;
+}
+
+.preloader-inner .loading-text .characters:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+
+/* Animation of the preloader */
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
   }
-  
-  /* Create a fade-in and fade-out animation */
-  @keyframes fade {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
+}
+
+/* Animation of letters loading from the preloader */
+@keyframes characters {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+    
+  } 
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
   }
+}
+
+/* Preloader End */
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
