@@ -4,20 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Gym</title>
-    <!-- Include Bootstrap CSS -->
-
     
+
+
 
     <link rel="stylesheet" href="./styles/css/style.css">
     <link rel="stylesheet" href="./styles/feature.css">
-   <!-- Add Bootstrap CSS and JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+	<link rel="shortcut icon" type="image/png" href="images/content/footerLogo.png">
     <style>
         /* Custom styles for the Carousel */
         #mySlider {
@@ -31,10 +24,144 @@
         .ml-auto .nav-item:not(:last-child) {
         margin-right: 20px; /* Adjust the value as needed for the desired spacing */
     }
- 
+/*  
+    .team{
+      margin: 75px 0;
+    }
+    h1{
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #333;
+      padding-bottom: 10px;
+    }
+    h1::after{
+      content:normal ;
+      background: #333;
+      display: block;
+      height: 3px;
+      width: 150px;
+      margin: 10px auto;
+    }
+    .profile{
+      margin-top: 25px;
+
+    }
+    .profile .img-box{
+      opacity: 1;
+      display: block;
+      position: relative;
+    }
+    .profile h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+    
+    }
+
+    .profile h3 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 15px;
+    
+    }
+    .img-box ::after{
+content: normal;
+opacity: 0;
+background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+
+    }
+    .img-box ul{
+      margin: 0;
+      padding: 20px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0
+
+    }
+    .img-box ul li{
+width: 30px;
+height: 30px;
+border: 1px solid #fff;
+border-radius: 50%;
+margin: 3px;
+padding: 7px;
+display: inline-block;
+    }
+    .img-box a{
+      color: #fff;
+    }
+    .img-box:hover:after{
+opacity: 1;
+    }
+    .img-box:hover ul{
+      opacity: 1;
+    }
+    .img-box a:hover li{
+      color: #007bff;
+      border: 1px solid #007bff;
+
+    } */
     </style>
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+   <style>
+
+   .heading{
+    font-size: 60px;
+   }
+   .heading span{
+
+    font-style: italic;
+    font-size: 30px;
+   }
+   .profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+   }
+   .profile{
+    flex-basis: 260px;
+   }
+   .profile.profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  
+   }
+   .profile:hover .profile-img{
+    filter: grayscale(0);
+   }
+.user-name{
+  margin-top: 30px;
+  font-size: 35px;
+}
+.profile h5{
+  font-weight: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
+
+}
+.profile p{
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+   </style>
+
+   <!-- Include jQuery UI JavaScript -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
    
@@ -85,112 +212,124 @@
 			</div>
 		</nav>
 		
-		
-	
-	
-		<!-- Slider -->
-        <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/content/slider (3).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./images/content/slider (4).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./images/content/slider (2).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div> -->
-<!-- End Slider -->
-<!-- Add the HTML code for the feature boxes after the slider -->
-<!-- <div id='features'>
-    <h1>Our Services</h1>
-    <div class='a-container'>
-      <div class='a-box'>
-        <div class='a-b-img'>
-          <img src='./images/images/1.svg' alt='' />
-        </div>
-        <a href='/products' style='text-decoration: none;'>
-          <div class='a-b-text'>
-            <h2>Equipments</h2>
-            <p>All About Gym</p>
-          </div>
-        </a>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-     
-      <div class='a-box'>
-        <div class='a-b-img'>
-          <img src='./images/images/3.svg' alt='' />
-        </div>
-        <a href='/products' style='text-decoration: none;'>
-          <div class='a-b-text'>
-            <h2>Machines</h2>
-            <p>All About Gym</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/content/allabout4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
-        </a>
-      </div>
-      <div class='a-box'>
-        <div class='a-b-img'>
-          <img src='./images/images/4.svg' alt='' />
         </div>
-        <a href='/products' style='text-decoration: none;'>
-          <div class='a-b-text'>
-            <h2>Gym business</h2>
-            <p>All About Gym</p>
+        <div class="carousel-item">
+          <img src="./images/content/allabout1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
           </div>
-        </a>
-      </div>
-      <div class='a-box'>
-        <div class='a-b-img'>
-          <img src='./images/images/2.svg' alt='' />
         </div>
-        <a href='/products' style='text-decoration: none;'>
-          <div class='a-b-text'>
-            <h2>Services</h2>
-            <p>All About Gym</p>
+        <div class="carousel-item">
+          <img src="./images/content/allabout5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
           </div>
-        </a>
+        </div>
       </div>
-  
-      
-      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </div>
+	
+	
+	
+  
+  
+  
+  <!-- <section class="team">
+
+    <div class="container">
+      <h1>OUR TEAM</h1>
+      <div class="row">
+        <div class="col-md-3 profile text-center">
+          <div class="img-box">
+            <img src="images/content/team (1).jpeg" class="img-responsive" alt="">
+            <ul>
+              <a href="#"><li><i class="fa fa-facebook-official"></i></li></a>
+              <a href="#"><li><i class="fa fa-instagram-official"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin-official"></i></li></a>
+            </ul>
+          </div>
+          <h2>Manrritpaul Singh Ubhi</h2>
+          <h3>Founder</h3>
+          <p>All About Gym</p>
+        </div>
+  
+        <div class="col-md-3 profile text-center">
+          <div class="img-box">
+            <img src="images/content/team (2).jpeg" class="img-responsive" alt="">
+            <ul>
+              <a href="#"><li><i class="fa fa-facebook-official"></i></li></a>
+              <a href="#"><li><i class="fa fa-instagram-official"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin-official"></i></li></a>
+            </ul>
+          </div>
+          <h2>Amreen Chadha</h2>
+          <h3>Associate Consultant</h3>
+          <p>All About Gym</p>
+          <details>
+            <summary>Professional Summary</summary>
+            <ul>
+              <li>Exercise Science Expert (Women’s Health Specialist)</li>
+              <li>Founder- The Women’s Course (A comprehensive and scientifically backed information on Women’s health and fitness)</li>
+              <li>Certified in Food Science & Nutrition</li>
+              <li>Resistance Training Specialist from RTS Global</li>
+              <li>Graduate in Legal Studies</li>
+              <li>Featured in leading lifestyle magazine</li>
+              <li>Excellent skills in fitness education, coaching and consultation</li>
+              <li>Expert in fat loss, gut health and women’s health</li>
+              <li>Expert in employee training and education in fitness business</li>
+              <li>Conducted tailor-made courses to create upscale training for fitness club’s employees at various locations</li>
+              <li>Coached and delivered proven results to more than 1000 clients with fitness transformations at both online and offline platforms</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
    -->
-  <!-- Other HTML content -->
- 
   
   
-  
-  
-  
-  
+
+    <h1 class="heading"><span>Meet</span> Our Team</h1>
+    <div class="profiles">
+      <div class="profile">
+        <img src="images/content/team (1).jpeg" class="profile-img">
+        <h3 class="user-name">Manrritpaul</h3>
+        <h5>Founder/CEO</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quos repellat culpa eaque odio fugiat a. Ipsam modi unde quae nam, culpa placeat, explicabo aspernatur hic sapiente, libero inventore.</p>
+      </div>
+    </div>
+    <div class="profiles">
+      <div class="profile">
+        <img src="images/content/team (2).jpeg" class="profile-img">
+        <h3 class="user-name">Amreen Chadha 
+        </h3>
+        <h5>Associate Consultant </h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quos repellat culpa eaque odio fugiat a. Ipsam modi unde quae nam, culpa placeat, explicabo aspernatur hic sapiente, libero inventore.</p>
+      </div>
+    </div>
+
 	
 	
      <!-- Main Wrapper-->
@@ -457,6 +596,9 @@
 
  
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </body>
