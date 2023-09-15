@@ -33,7 +33,20 @@
         margin-right: 20px; /* Adjust the value as needed for the desired spacing */
     }
  
-      
+    .text-style {
+  position: relative;
+}
+
+.text-style::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline as needed */
+  background-color: #EF4823; /* Set the color of the underline */
+}
+
 
  
     </style>
@@ -126,26 +139,33 @@
 <section class="container mt-5 text-center" style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #333; font-size: 28px;">Get In Touch With Us</h2>
     <p style="color: #666; font-size: 20px;">
-        <i class="fas fa-map-marker-alt" style="font-size: 24px;"></i> <a href="https://maps.google.com/?q=F-470,Majors+Tower,Sector+74,Near+Judicial+Courts+Complex,Mohali-140306">F-470, Majors Tower, Sector 74, Near Judicial Courts Complex, Mohali – 140306</a>
+        <i class="fas fa-map-marker-alt" style="font-size: 24px;"></i> <a href="https://maps.google.com/?q=F-470,Majors+Tower,Sector+74,Near+Judicial+Courts+Complex,Mohali-140306" style="text-decoration: none; color: inherit;">F-470, Majors Tower, Sector 74, Near Judicial Courts Complex, Mohali – 140306</a>
     </p>
     <p style="color: #666; font-size: 20px;">
-        <i class="fas fa-phone" style="font-size: 24px;"></i> <a href="tel:+917053660001">+91 70536 60001</a> | <a href="tel:+917872460001">+91 78724 60001</a> | <i class="far fa-envelope" style="font-size: 24px;"></i> <a href="mailto:info@yourwebsite.com">Email (info@yourwebsite.com)</a>
+        <i class="fas fa-phone" style="font-size: 24px;"></i> <a href="tel:+917053660001" style="text-decoration: none; color: inherit;">+91 70536 60001</a> | <a href="tel:+917872460001" style="text-decoration: none; color: inherit;">+91 78724 60001</a> | <i class="far fa-envelope" style="font-size: 24px;"></i> <a href="mailto:info@yourwebsite.com" style="text-decoration: none; color: inherit;">Email (info@yourwebsite.com)</a>
     </p>
     <!-- Social Media Links -->
     <div class="mt-4">
         <p style="color: #333; font-size: 24px;">Connect with us on social media:</p>
-        <!-- Add your social media links here -->
-        <a href="#" class="fa fa-facebook" style="font-size: 24px;"></a>
-        <a href="#" class="fa fa-twitter" style="font-size: 24px;"></a>
-        <a href="#" class="fa fa-instagram" style="font-size: 24px;"></a>
+        <!-- Replace the font-awesome icons with PNG images -->
+        <a href="#">
+            <img src="./images/images/fb.png" alt="Facebook" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+        </a>
+        <a href="#">
+            <img src="./images/images/pngwing.com (2).png" alt="Linkedin" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+        </a>
+        <a href="#">
+            <img src="./images/images/pngwing.com (1).png" alt="Instagram" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+        </a>
     </div>
 
     <!-- Affiliate and Associations -->
     <div class="mt-4">
         <p style="color: #333; font-size: 24px;">Affiliate with:</p>
-        <a href="#" class="btn btn-link" style="color: #007bff; font-size: 24px;">NAFE | National Association of Fitness Excellence</a>
+        <a href="#" class="btn btn-link" style="color: #EF4823; font-size: 24px; text-decoration: none;">NAFE | National Association of Fitness Excellence</a>
     </div>
 </section>
+
 
 
 
@@ -206,7 +226,7 @@
         </div>
         <a href='./services.html' style='text-decoration: none;'>
           <div class='a-b-text'>
-            <h2>Equipments</h2>
+            <h2>Equipment</h2>
             <p>All About Gym</p>
           </div>
         </a>
@@ -218,7 +238,7 @@
         </div>
         <a href='./services.html' style='text-decoration: none;'>
           <div class='a-b-text'>
-            <h2>Machines</h2>
+            <h2>Machine</h2>
             <p>All About Gym</p>
           </div>
         </a>
@@ -289,7 +309,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
-                        <h2 class="text-dark-200 text-uppercase mb-4">Consultant</h2>
+                        <h2 class="text-dark-200 text-uppercase mb-4 text-style">Consultant</h2>
                         <h5 class="text-dark-200">We bring improvement in your gym business by the process of business screening to understand your business operations and identify the issues</h5>
                         
                     </div>
@@ -476,13 +496,19 @@
 						</div>
 					</div>
 				</div>
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <!-- <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
-                    <!-- <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li> -->
-                    <!-- <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li> -->
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                </ul>
+            </div>
+                <p style="color: #fff; font-size: 24px;">Connect with us on social media:</p>
+                <!-- Replace the font-awesome icons with PNG images -->
+                <a href="#">
+                    <img src="./images/images/fb.png" alt="Facebook" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+                </a>
+                <a href="#">
+                    <img src="./images/images/pngwing.com (2).png" alt="Linkedin" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+                </a>
+                <a href="#">
+                    <img src="./images/images/pngwing.com (1).png" alt="Instagram" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
+                </a>
+                
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 					<div class="ast_copyright_wrapper" style="margin-bottom: 15px;">
 						
@@ -490,9 +516,10 @@
 						<p class="widgets-color">Developed by <a class="widgets-color" href="https://www.younedia.com/" target="_blank">Younedia</a></p>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	</div>
+
 
     <!-- Footer -->
    
