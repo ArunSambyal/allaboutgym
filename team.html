@@ -24,7 +24,30 @@
         .ml-auto .nav-item:not(:last-child) {
         margin-right: 20px; /* Adjust the value as needed for the desired spacing */
     }
+
+    
+
+/* #box{
+  height: 300px;
+  width: 350px;
+  background-image: url("./images/content/gymphotos (1).JPG");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+#bottom{
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(transparent,black);
+  position: absolute;
+  bottom: -40%;
+
+  position: relative;
+}
+  */
 /*  
+
+
     .team{
       margin: 75px 0;
     }
@@ -113,7 +136,12 @@ opacity: 1;
     } */
     </style>
    <style>
-
+ .profile-img {
+  max-width: 50%;
+  border: 5px solid #fff; /* Add a white border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+ 
+}
    .heading{
     font-size: 60px;
    }
@@ -123,7 +151,7 @@ opacity: 1;
     font-size: 30px;
    }
    .profiles{
-    display: flex;
+    
     justify-content: space-around;
     margin: 20px 80px;
    }
@@ -158,6 +186,24 @@ opacity: 1;
   margin-top: 20px;
   text-align: justify;
 }
+
+
+
+
+.text-style {
+  position: relative;
+}
+
+.text-style::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline as needed */
+  background-color: orange; /* Set the color of the underline */
+}
+
    </style>
 
    <!-- Include jQuery UI JavaScript -->
@@ -183,34 +229,33 @@ opacity: 1;
         <!-- Header -->
       
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " style="background-color: rgba(0, 0, 0, 0.3);">
-			<div class="container">
-				<a class="navbar-brand" href="#"><img src="images/content/logo.png" alt="Logo" title="Logo"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="navbar-collapse" id="navbarNav">
-                    <ul class=" ml-auto" style='margin-left: 50%;'>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html" style="color: white; text-decoration: none!important;">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html" style="color: white; text-decoration: none!important;">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="team.html" style="color: white; text-decoration: none!important;">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html" style="color: white; text-decoration: none!important;">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html" style="color: white; text-decoration: none!important;">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                
-			</div>
-		</nav>
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/content/logo.png" alt="Logo" title="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto" style='margin-left: 30%;'>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Service</a>
+                </li>
+                            <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 		
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -311,7 +356,7 @@ opacity: 1;
   
   
 
-    <h1 class="heading"><span>Meet</span> Our Team</h1>
+    <h3 class="text-style heading"><span>Meet Our Team</span> </h3>
     <div class="profiles">
       <div class="profile">
         <img src="images/content/team (1).jpeg" class="profile-img">
@@ -352,7 +397,7 @@ opacity: 1;
               <div class="row justify-content-between">
                   <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
                       <h2 class="text-dark-200 text-uppercase mb-4">Consultant with us</h2>
-                      <h5 class="text-dark-200">"  We bring improvement in your gym business by the process of business screening to understand your business operations and identify the issues</h5>
+                      <h5 class="text-dark-200"> We bring improvement in your gym business by the process of business screening to understand your business operations and identify the issues</h5>
                       
                   </div>
                 
