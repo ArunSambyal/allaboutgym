@@ -189,10 +189,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_autho_wrapper li > a > i{
-	color: #ff6f00;
+	color: #EF4823;
 }
 .ast_autho_wrapper li a:hover{
-	/* color: #ff6f00; */
+	/* color: #EF4823; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -313,7 +313,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_contact_details ul li a:hover{
-    /* color: #ff6f00; */
+    /* color: #EF4823; */
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -322,7 +322,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_contact_details ul li i, .ast_contact_details ul li a i{
 	padding-right:5px;
-	color: #ff6f00;
+	color: #EF4823;
 }
 /*---------- Header End -------*/
 /*---------- Menu css start -------*/
@@ -393,7 +393,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	bottom:0;
 	right:0;
 	z-index:-1;
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -403,7 +403,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_menu ul li a:hover:after{
 	opacity:1;
 	visibility:visible;
-	/* background-color: #ff6f00; */
+	/* background-color: #EF4823; */
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -411,7 +411,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_menu ul li a.active {
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -440,7 +440,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_menu ul li ul.submenu li a:hover{
 	border-top:0px;
-	/* background-color: #ff6f00; */
+	/* background-color: #EF4823; */
 	color: #ffffff;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -525,8 +525,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 	width:100%;
     background-color: rgb(0, 0, 0, 0.3);
     padding-bottom: 26px;
-    border-top: 3px solid #ff6f00;
-    border-bottom: 3px solid #ff6f00;
+    border-top: 3px solid #EF4823;
+    border-bottom: 3px solid #EF4823;
     border-radius: 30px;
 }
 .ast_bannertext_wrapper h1{
@@ -810,10 +810,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     line-height: 43px;
     padding: 0px 20px;
     min-width: 130px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     color: #ffffff;
     text-transform: capitalize;
-    border: 1px solid #ff6f00;
+    border: 1px solid #EF4823;
     border-radius: 3px;
     text-align: center;
     -webkit-transition: all 0.5s;
@@ -827,8 +827,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_btn:hover, .ast_btn:focus{
 	background-color:transparent;
-	color:#ff6f00;
-	/* border:1px solid #ff6f00; */
+	color:#EF4823;
+	/* border:1px solid #EF4823; */
 	outline:none;
 	box-shadow:none;
 	-webkit-transition: all 0.5s;
@@ -854,7 +854,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-transform:capitalize;
 }
 .ast_heading h1 span{
-	color: #ff6f00;
+	color: #EF4823;
 }
 
 .ast_heading p {
@@ -964,7 +964,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 120px;
     line-height: 90px;
     border-radius: 100%;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     text-align: center;
     border: 10px solid #FFFFFF;    
     -webkit-box-shadow: -1px 0px 1px 0px #e1e1e1;
@@ -1065,7 +1065,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_service_box:hover h4{
-	/* color: #ff6f00; */
+	/* color: #EF4823; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1115,7 +1115,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color:#ffffff;
 }
 .ast_service_slider .owl-theme .owl-nav [class*='owl-']:hover{
-	/* background-color: #ff6f00; */
+	/* background-color: #EF4823; */
 	color:#ffffff;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1214,7 +1214,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-bottom:0px;
 }
 .ast_vedic_astrology ul li:hover a .ast_vedic_astro_info h5{
-    /* color: #ff6f00; */
+    /* color: #EF4823; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1301,7 +1301,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	float:left;
     font-size: 36px;
     margin: 0px;
-    color: #ff6f00;
+    color: #EF4823;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -1391,7 +1391,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_packages_box:hover .ast_price{
-	/* background-color: #ff6f00; */
+	/* background-color: #EF4823; */
     -webkit-box-shadow: 0px 0px 30px -10px #000000;
     -moz-box-shadow: 0px 0px 30px -10px #000000;
     -o-box-shadow: 0px 0px 30px -10px #000000;
@@ -1407,7 +1407,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	display:inline-block;
 	margin:0px;
 	text-transform:uppercase;
-	color: #ff6f00;
+	color: #EF4823;
 }
 .ast_packages_box:hover .ast_price h2{
 	color: #ffffff;
@@ -1421,7 +1421,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	display:inline-block;
 	margin:0px;
 	text-transform:uppercase;
-	color: #ff6f00;
+	color: #EF4823;
     font-size: 12px;
 }
 .ast_packages_box:hover .ast_price p{
@@ -1470,13 +1470,13 @@ input:focus, textarea:focus, select:focus, button:focus {
     left: 0;
     right: 0;
     padding: 10px 0px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 .ast_packages_box.active .ast_price{
-	background-color: #ff6f00;
+	background-color: #EF4823;
     -webkit-box-shadow: 0px 0px 30px -10px #000000;
     -moz-box-shadow: 0px 0px 30px -10px #000000;
     -o-box-shadow: 0px 0px 30px -10px #000000;
@@ -1595,7 +1595,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-bottom:0px;
 }
 .ast_horoscope_box:hover span{
-	background-color: #ff6f00;
+	background-color: #EF4823;
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
@@ -1621,7 +1621,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_horoscope_box:hover h4{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1692,7 +1692,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_gemstonea_slider_box:hover h4{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1722,7 +1722,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_gemstones_slider .owl-theme .owl-nav [class*='owl-']:hover{
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	color:#ffffff;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1757,7 +1757,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin: 50px 0px;
 }
 .ast_overview_info h1 span{
-	color: #ff6f00;
+	color: #EF4823;
 }
 .ast_overview_info p{
 	float:left;
@@ -1827,7 +1827,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_testimonials_slider_box_text h4:after{
     content: "";
     position: absolute;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     width: 15px;
     height: 2px;
     top: 8px;
@@ -1862,7 +1862,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_testimonials_slider .owl-theme .owl-dots .owl-dot.active span, .ast_testimonials_slider .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ff6f00;
+    background-color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1951,7 +1951,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_footer_info ul li a:hover{
-    background-color: #ff6f00;
+    background-color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2030,7 +2030,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 45px;
     line-height: 45px;
     text-align: center;
-    color: #ff6f00;
+    color: #EF4823;
     border: 1px solid #ffffff;
     border-radius: 0px 3px 3px 0px;
     padding: 0px;
@@ -2042,9 +2042,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_newsletter_box button:hover, .ast_newsletter_box button:focus{
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	color:#ffffff;
-	border: 1px solid #ff6f00;
+	border: 1px solid #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2087,7 +2087,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	border-bottom:0px;
 }
 .ast_servicelink ul li a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2130,7 +2130,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	border-bottom:0px;
 }
 .ast_sociallink ul li a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2159,7 +2159,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_gettouch ul li i{
 	float:left;
 	width:30px;
-	color: #ff6f00;
+	color: #EF4823;
 	font-size:20px;
     padding-top: 3px;
 }
@@ -2180,7 +2180,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_gettouch ul li a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2203,7 +2203,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_copyright_wrapper p a{
     font-weight: 700;
-	color: #ff6f00;
+	color: #EF4823;
 }
 /*---------- Footer Wrapper css end -------*/
 /*----Breadcrumb Start-----------*/
@@ -2264,7 +2264,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	padding-right:0px;
 	}
 .ast_pagetitle ul.breadcrumb li:hover a{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2272,7 +2272,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 	}
 .ast_pagetitle ul.breadcrumb li:last-child a{
-	color: #ff6f00;
+	color: #EF4823;
     cursor: text;
 	}
 .ast_pagetitle ul.breadcrumb li i{
@@ -2335,7 +2335,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_blog_info ul.ast_blog_info_text li a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2343,7 +2343,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_blog_info ul.ast_blog_info_text li a i{
-	color: #ff6f00;
+	color: #EF4823;
 	margin-right:5px;
 }
 .ast_blog_info .ast_blog_info_heading{
@@ -2361,7 +2361,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;	
 }
 .ast_blog_info .ast_blog_info_heading a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2420,7 +2420,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     color: #ffffff;
     border-radius: 3px;
     z-index: 1;
@@ -2470,7 +2470,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     bottom: 0%;
     left: 0%;
     width: 70px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     height: 2px;
 }
 .ast_blog_comment_wrapper ul{
@@ -2525,7 +2525,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: calc(100% - 110px);
 }
 .ast_blog_comment:hover .ast_comment_text h5{
-    color: #ff6f00;
+    color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2548,7 +2548,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_comment_text .ast_comment_reply{
     float: right;
     text-decoration: none;
-    color: #ff6f00;
+    color: #EF4823;
     text-transform: capitalize;
     padding-left: 0px;
     -webkit-transition: all 0.5s;
@@ -2558,7 +2558,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_comment_text .ast_comment_reply:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2590,7 +2590,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     bottom: 0%;
     left: 0%;
     width: 70px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     height: 2px;
 }
 .ast_blog_messages{
@@ -2654,7 +2654,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .sidebar_wrapper ul li a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2676,7 +2676,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	bottom:0%;
 	left:0%;
 	width:70px;
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	height:2px;
 }
 .widget.widget_search{
@@ -2728,8 +2728,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .widget_search button:hover, .widget_search button:focus{
-	border:1px solid #ff6f00;
-	background-color: #ff6f00;
+	border:1px solid #EF4823;
+	background-color: #EF4823;
 	color:#ffffff;
 	border-left:none;
 	outline:none;
@@ -2774,8 +2774,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .widget_tag_cloud a:hover{
-	color: #ff6f00;
-	border:1px solid #ff6f00;
+	color: #EF4823;
+	border:1px solid #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2855,8 +2855,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_pagination ul li a:hover, .ast_pagination ul li a:focus, .ast_pagination ul li a.active{
 	color:#ffffff;
-	background-color: #ff6f00;
-	border-color:#ff6f00;
+	background-color: #EF4823;
+	border-color:#EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2898,7 +2898,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_contact_info span i{
 	font-size:36px;
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2906,7 +2906,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_contact_info:hover span{
-	background-color: #ff6f00;
+	background-color: #EF4823;
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
@@ -2943,7 +2943,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	width:100%;
 }
 .ast_contact_info p a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3086,7 +3086,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_team_box h4 a:hover{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3145,7 +3145,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color:#ffffff;
 }
 .ast_team_box:hover ul li a i{
-	color: #ff6f00;
+	color: #EF4823;
 	background-color:#f4f4f4;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -3274,7 +3274,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     border-radius: 100%;
 }
 .ast_numerology_box:hover a{
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	color:#ffffff;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -3355,7 +3355,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_tarot_box:hover a h4{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3389,7 +3389,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	padding:10px;
 	color: #ffffff;
 	border-radius:13px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
 	border:1px solid transparent;
     transform: rotateY(180deg);
     -webkit-transition: all 0.5s;
@@ -3490,7 +3490,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_vastu_box:hover a h4{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3577,7 +3577,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.5s;
 }
 .ast_vastu_box:hover a h4{
-	color: #ff6f00;
+	color: #EF4823;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3657,7 +3657,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 30px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     border-radius: 3px;
 }
 .ast_menu_btn:hover, .ast_menu_btn:focus{
@@ -3726,7 +3726,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-color: #f4f4f4;
 }
 .ast_menu::-webkit-scrollbar-thumb {
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	outline: 0px;
 }
 .ast_menu ul {
@@ -3736,7 +3736,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
 }
 .ast_menu ul li a:hover, .ast_menu ul li a.active{
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	color:#ffffff;
 	border-top: 0px;
 }
@@ -3818,7 +3818,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 30px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     border-radius: 3px;
 }
 .ast_menu_btn:hover, .ast_menu_btn:focus{
@@ -3871,7 +3871,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-color: #f4f4f4;
 }
 .ast_menu::-webkit-scrollbar-thumb {
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	outline: 0px;
 }
 .ast_menu ul {
@@ -3881,7 +3881,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
 }
 .ast_menu ul li a:hover, .ast_menu ul li a.active{
-	background-color: #ff6f00;
+	background-color: #EF4823;
 	color:#ffffff;
 	border-top: 0px;
 }
@@ -4141,13 +4141,13 @@ li.ast_search , li.ast_cart{
     height: 35px;
     padding: 0 20px;
     border: 1px solid transparent;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     color: #ffffff;
 	transition:all .3s;
 }
 .ast_search .ast_search_field button:hover{
 	background-color:transparent;
-	border-color:#ff6f00;
+	border-color:#EF4823;
 	color:#333333;
 }
 .ast_cart_box{
@@ -4195,7 +4195,7 @@ li.ast_search , li.ast_cart{
 	top:0;
 	right:-25px;
 	width:auto;
-	color:#ff6f00;
+	color:#EF4823;
 }
 .ast_cart_list .ast_cart_img{
 	float:left;
@@ -4240,7 +4240,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_cart_box .ast_cart_btn button{
 	border:1px solid transparent;
-	background-color:#ff6f00;
+	background-color:#EF4823;
 	color:#ffffff;
 	display:inline-block;
 	padding:8px 15px;
@@ -4254,8 +4254,8 @@ li.ast_search , li.ast_cart{
 }
 .ast_cart_box .ast_cart_btn button:hover{
 	background-color:transparent;
-	color:#ff6f00;
-	border-color:#ff6f00;
+	color:#EF4823;
+	border-color:#EF4823;
 }
 .ast_cart_list::-webkit-scrollbar {
 	width:4px;
@@ -4264,7 +4264,7 @@ li.ast_search , li.ast_cart{
 	-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
 }
 .ast_cart_list::-webkit-scrollbar-thumb {
-	background-color:#ff6f00;
+	background-color:#EF4823;
 	outline:#708090 solid 1px;
 }
 /**--- shop page css start ---**/
@@ -4297,7 +4297,7 @@ li.ast_search , li.ast_cart{
 	padding-top:5px;
 }
 .ast_product_info i{
-	color:#ff6f00;
+	color:#EF4823;
 	font-size:12px;
 }
 .ast_info_bottom .ast_btn{
@@ -4315,7 +4315,7 @@ li.ast_search , li.ast_cart{
 	-webkit-box-orient: vertical;
 }
 .ast_product_section .ast_product_info .ast_shop_title a{
-	color:#ff6f00;
+	color:#EF4823;
 }
 .ast_product_section .ast_product_image{
 	padding:20px;
@@ -4363,7 +4363,7 @@ li.ast_search , li.ast_cart{
     width: 15px;
     height: 15px;
     top: -5px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     border-color: transparent;
     cursor: pointer;
 }
@@ -4371,7 +4371,7 @@ li.ast_search , li.ast_cart{
 	outline:none;
 }
 .widget_filter .ui-slider-horizontal .ui-slider-range{
-	background-color:#ff6f00;
+	background-color:#EF4823;
 }
 /**--- cart page css start ---**/
 .ast_cart_wrapper{
@@ -4422,7 +4422,7 @@ li.ast_search , li.ast_cart{
     font-weight: normal;
     margin: 5px 0 3px;
 	text-transform:capitalize;
-    color: #ff6f00;
+    color: #EF4823;
 }
 .cart_table tr .product_details .prod_size {
     font-size: 14px;
@@ -4447,7 +4447,7 @@ li.ast_search , li.ast_cart{
 	-moz-transition: all ease-in-out 0.25s;
 }
 .close_pro:hover{
-	color:#ff6f00;
+	color:#EF4823;
 }
 .cupon_code_wrap .cupon_code {
     height: 45px;
@@ -4492,7 +4492,7 @@ li.ast_search , li.ast_cart{
     text-align: center;
 }
 .checkout_wrapper_box #progressbar > li {
-   color: #ff6f00;
+   color: #EF4823;
     border: 1px solid;
     border-radius: 3px;
     background-color: transparent;
@@ -4520,7 +4520,7 @@ li.ast_search , li.ast_cart{
     width: 0;
     height: 100%;
     opacity: 0;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     transition: all ease-in 0.25s;
     -webkit-transition: all ease-in 0.25s;
     -moz-transition: all ease-in 0.25s;
@@ -4534,7 +4534,7 @@ li.ast_search , li.ast_cart{
 .checkout_wrapper_box #progressbar > li.active {
     color: #ffffff;
     opacity: 1;
-    border: 1px solid #ff6f00;
+    border: 1px solid #EF4823;
 }
 .checkout_wrapper_box #progressbar > li.active:before, 
 .checkout_wrapper_box #progressbar > li.active:after{
@@ -4593,7 +4593,7 @@ li.ast_search , li.ast_cart{
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff6f00;
+    border: 1px solid #EF4823;
 }
 .woocommerce_billing .form-group label .checkmark:after {
     content: "";
@@ -4610,7 +4610,7 @@ li.ast_search , li.ast_cart{
     transform: rotate(45deg);
 }
 .woocommerce_billing .form-group label input:checked ~ .checkmark {
-    background-color: #ff6f00;
+    background-color: #EF4823;
 }
 .woocommerce_billing .form-group label input:checked ~ .checkmark:after {
     display: block;
@@ -4707,7 +4707,7 @@ li.ast_search , li.ast_cart{
     font-size: 14px;
 }
 .product_description .stock_details {
-    color: #ff6f00;
+    color: #EF4823;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin-top: 30px;
@@ -4745,7 +4745,7 @@ li.ast_search , li.ast_cart{
     margin-left: 2px;
 }
 .product_description .ad_wishlist:hover {
-    color: #ff6f00;
+    color: #EF4823;
 }
 /*--- Product descrption ---*/
 /*--- Product descrption Tabs ---*/
@@ -4776,8 +4776,8 @@ li.ast_search , li.ast_cart{
     -moz-transition: all ease-in-out 0.3s;
 }
 .product_desc_tabs ul.tabs > li.current {
-    color: #ff6f00;
-    border-bottom: 2px solid #ff6f00;
+    color: #EF4823;
+    border-bottom: 2px solid #EF4823;
 }
 .product_tab_content {
     float: left;
@@ -4803,7 +4803,7 @@ li.ast_search , li.ast_cart{
     bottom: 0%;
     left: 0%;
     width: 70px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     height: 2px;
 }
 .tab_content p {
@@ -4867,7 +4867,7 @@ li.ast_search , li.ast_cart{
     top: -33px;
     left: -100px;
     border-radius: 100%;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     width: 270px;
     height: 270px;
     border: 12px solid #f4f4f4;
@@ -4892,7 +4892,7 @@ li.ast_search , li.ast_cart{
 	text-transform:capitalize;
 }
 .ast_palm_section:hover .ast_palm_content h4 a{
-	color:#ff6f00;
+	color:#EF4823;
 }
 .ast_palm_section.ast_palm_right .ast_palm_img{
 	left:auto;
@@ -4959,7 +4959,7 @@ li.ast_search , li.ast_cart{
 	-ms-transition:all .3s;
 }
 #login-dialog .ast_login_data label:hover , #login-dialog .ast_login_data a:hover{
-	color:#ff6f00;
+	color:#EF4823;
 }
 #login-dialog input[type='checkbox']{
 	box-shadow: none;
@@ -4976,7 +4976,7 @@ li.ast_search , li.ast_cart{
 	margin-bottom:0;
 }
 #signup-dialog p a , #login-dialog p a{
-	color:#ff6f00;
+	color:#EF4823;
 }
 #signup-dialog .ast_btn{
 	margin-top:10px;
@@ -5043,7 +5043,7 @@ li.ast_search , li.ast_cart{
     left: -30px;
     width: 6px;
     height: 6px;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     border-radius: 100%;
 }
 /*--- about slider ---*/
@@ -5133,7 +5133,7 @@ li.ast_search , li.ast_cart{
   -webkit-transform: translate(-3px, -3px);
   transform: translate(-3px, -3px);
   opacity: 1;
-  background-color: #ff6f00;
+  background-color: #EF4823;
 }
 .about_slider #one {
   left: 0;
@@ -5143,7 +5143,7 @@ li.ast_search , li.ast_cart{
 }
 .about_slider img{
 	border-radius:30px;
-	border:2px solid #ff6f00;
+	border:2px solid #EF4823;
 	width:300px;
 	margin-top:-30px;
 }
@@ -5187,12 +5187,12 @@ li.ast_search , li.ast_cart{
 }
 .ast_faq_section .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 .ast_faq_section .accordion-button:focus {
     z-index: 3;
-    border-color: #ff6f00;
+    border-color: #EF4823;
     outline: 0;
     box-shadow: 0 0 0 1px rgb(255 111 0);
 }
@@ -5204,7 +5204,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_faq_section .panel-default>.panel-heading button[aria-expanded="true"] , 
 .panel-group .panel:first-child .panel-heading button{
-	background-color:#ff6f00;
+	background-color:#EF4823;
 	color:#ffffff;
 }
 .ast_faq_section .panel-default>.panel-heading button[aria-expanded="false"]{
@@ -5235,7 +5235,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_faq_section .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #ff6f00;
+    background-color: #EF4823;
     /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
     box-shadow: 0px 0px 5px 0px rgb(4 4 4 / 20%);
     border-radius: 5px;
@@ -5262,7 +5262,7 @@ li.ast_search , li.ast_cart{
 }
 
 .logo-heading>h3 {
-    color: #ff6f00;
+    color: #EF4823;
 }
 /*--- responsive css start ---*/
 @media(max-width:1400px){
@@ -5740,9 +5740,14 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Updated to center vertically */
     align-items: center;
     background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay on the video */
+}
+
+.slider-text {
+    text-align: left; /* Align text to the left within the paragraph */
+    padding: 20px; /* Add some padding for spacing */
 }
 
 /* Styling for each slide's text */

@@ -101,6 +101,110 @@
   background-color: #EF4823; /* Set the color of the underline */
 }
     </style>
+    <style>body {
+      font-family: "Poppins";
+    }
+    
+    h2, h3, h4 {
+      margin: 0;
+      font-weight: 500;
+    }
+    
+    article {
+      position: relative;
+      perspective: 1000px;
+      width: 300px;
+      height: 300px;
+    }
+    
+    article header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      margin-bottom: 26px;
+    }
+    
+    article .front, article .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      backface-visibility: hidden;
+      background-color: #b2d0df;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+      padding: 24px;
+      transition: 0.6s;
+      cursor: pointer;
+    }
+    
+    .back {
+      transform: rotateY(180deg);
+    }
+    
+    #summary input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+    
+    #summary input:checked + article .back {
+      transform: rotateY(0);
+    }
+    
+    #summary input:checked + article .front {
+      transform: rotateY(0);
+    }
+    
+    article var {
+      font-style: normal;
+      font-size: 80px;
+      line-height: 1;
+    }
+    
+    article h3 {
+      margin: 0 0 30px;
+      font-weight: 500;
+    }
+    
+    #summary :is(var, h3) {
+      color: #3b82f6;
+    }
+    
+
+    /* #cards-container {
+  background-image: url("./images/content/opacity.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+} */
+#cards-container {
+  position: relative;
+  overflow: hidden;
+  
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the container takes up at least the viewport height */
+  padding: 20px;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+    </style>
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
 </head>
@@ -130,7 +234,9 @@
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav" style="
+            background: black;
+        ">
               <ul class="navbar-nav ml-auto" style='margin-left: 30%;'>
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
@@ -153,7 +259,7 @@
         </nav>
 		
     <!-- Slider -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -191,7 +297,329 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-		
+    <div id="cards-container">
+      <video autoplay muted loop id="background-video">
+        <source src="videos/video-1.mp4" type="video/mp4">
+        <!-- Add additional source elements for other video formats if needed -->
+      </video>
+<label id="summary">
+<input type="checkbox">
+<article>
+<div class="front">
+
+  <header>
+<h2>
+ 
+</h2>
+<h4>Gym Upgradation</h4>
+
+<span></span>
+  </header>
+  <var></var>
+  <h2></h2>
+  <img src="./images/content/20230904_171220.jpg" alt="Image Description">
+</div>
+<div class="back">
+<header>
+  <h2>Summary</h2>
+  <span>Close</span>
+</header>
+<p>We develop club re-modelling with a performance design and accessories that fit in the
+  industry in the present date. With significant experience in the industry, our dedicated team
+  of professionals help you plan, design and build out your club! 
+  </p>
+</div>
+
+</article>
+
+
+</label>
+<label id="summary">
+  <input type="checkbox">
+  <article>
+  <div class="front">
+  
+    <header>
+  
+  <h4>Employee Training & Education</h4>
+
+  <span></span>
+    </header>
+    <var></var>
+    <h2></h2>
+    <img src="./images/content/20230904_171326.jpg" alt="Image Description">
+  </div>
+  <div class="back">
+  <header>
+    <h2>Summary</h2>
+    <span>Close</span>
+  </header>
+  <p>
+    We offer customised/ exclusive workshops on Training & Nutrition and Gym Planning &
+    Management to create up-skill training of your club staff and also provide education
+    programs for the club members focussing on membership retention and club! 
+    
+    </p>
+  </div>
+  
+  </article>
+  
+  
+  </label>
+  <label id="summary">
+    <input type="checkbox">
+    <article>
+    <div class="front">
+    
+      <header>
+        <h4>Recruitment Services</h4>
+   
+    <span></span>
+      </header>
+      <var></var>
+      <h2></h2>
+      <img src="./images/content/20230904_171220.jpg" alt="Image Description">
+    </div>
+    <div class="back">
+    <header>
+      <h2>Summary</h2>
+      <span>Close</span>
+    </header>
+    <p>
+      We offer recruitment services for gyms/ health clubs and for individuals- fitness trainers/
+      other industry professionals. Gyms/ health clubs who are finding the right candidate and
+      individuals who are looking for a lucrative job opportunity; we are here to help! 
+       
+      </p>
+    </div>
+    
+    </article>
+    
+    
+    </label>
+    <label id="summary">
+      <input type="checkbox">
+      <article>
+      <div class="front">
+      
+        <header>
+          <h4>Social Media Marketing</h4>
+     
+      <span></span>
+        </header>
+        <var></var>
+        <h2></h2>
+        <img src="./images/content/20230904_171239.jpg" alt="Image Description">
+      </div>
+      <div class="back">
+      <header>
+        <h2>Summary</h2>
+        <span>Close</span>
+      </header>
+      <p>
+        We offer a complete package on social media marketing from ideation/ designing to
+        handling/ management. From conceptualisation to brand management our involvement
+        reinforces clients marketing strategies for more measurable results! 
+         
+        </p>
+      </div>
+      
+      </article>
+      
+      
+      </label>
+      <label id="summary">
+        <input type="checkbox">
+        <article>
+        <div class="front">
+        
+          <header>
+            <h4>Sales Revenue Improvement</h4>
+       
+        <span> </span>
+          </header>
+          <var></var>
+          <h2></h2>
+          <img src="./images/content/20230904_171306.jpg" alt="Image Description">
+        </div>
+        <div class="back">
+        <header>
+          <h2>Summary</h2>
+          <span>Close</span>
+        </header>
+        <p> 
+          Our zero-risk partnership is an investment in your staff’s development and drive cultural
+          changes in your club. We simplify database to capture performance database against sales
+          for multiple plan period facilitating trend analysis and target allocation!
+          </p>
+        </div>
+        
+        </article>
+        
+        
+        </label>
+        <label id="summary">
+          <input type="checkbox">
+          <article>
+          <div class="front">
+          
+            <header>
+              <h4>Interiors & Branding</h4>
+       
+          <span> </span>
+            </header>
+            <var></var>
+            <h2></h2>
+            <img src="./images/content/20230904_171339.jpg" alt="Image Description">
+          </div>
+          <div class="back">
+          <header>
+            <h2>Summary</h2>
+            <span>Close</span>
+          </header>
+          <p>- 
+            We strive to present a blend of aesthetics and performance to fashion new concepts in
+            gym interiors and branding to create a unique brand image that includes the thorough
+            research of the market demand and competition! 
+            </p>
+          </div>
+          
+          </article>
+          
+          
+          </label>
+          <label id="summary">
+            <input type="checkbox">
+            <article>
+            <div class="front">
+            
+              <header>
+                <h4>Gym & Spa Equipment</h4>
+           
+            <span> </span>
+              </header>
+              <var></var>
+              <h2></h2>
+              <img src="./images/content/20230904_171326.jpg" alt="Image Description">
+            </div>
+            <div class="back">
+            <header>
+              <h2>Summary</h2>
+              <span>Close</span>
+            </header>
+            <p>
+              We strive to offer the most premium and most affordable gym & spa equipment and furnish
+              our customer with the best possibilities in terms of selection and supply as per customer
+              needs and budget with best in class after sales services! 
+              
+              </p>
+            </div>
+            
+            </article>
+            
+            
+            </label>
+            <label id="summary">
+              <input type="checkbox">
+              <article>
+              <div class="front">
+              
+                <header>
+                  <h4>Gym Franchise</h4>
+             
+              <span> </span>
+                </header>
+                <var></var>
+            
+                <img src="./images/content/20230904_171306.jpg" alt="Image Description">
+              </div>
+              <div class="back">
+              <header>
+                <h2>Summary</h2>
+                <span>Close</span>
+              </header>
+              <p> 
+                We welcome you to be a part of revolutionary fitness industry with holistic brand experience
+                with the very fresh fitness concepts with us and offer franchise opportunity from leaders of
+                the industry. Let’s connect if you want to explore more information on the same! 
+                
+                </p>
+              </div>
+              
+              </article>
+              
+              
+              </label>
+              <label id="summary">
+                <input type="checkbox">
+                <article>
+                <div class="front">
+                
+                  <header>
+                    <h4>Project Development</h4>
+               
+                <span> </span>
+                  </header>
+                  <var></var>
+                  <h2></h2>
+                  <img src="./images/content/20230904_171220.jpg" alt="Image Description">
+                </div>
+                <div class="back">
+                <header>
+                  <h2>Summary</h2>
+                  <span>Close</span>
+                </header>
+                <p>
+                  We offer assistance on new gym set up including site selection, vendor selection, operations
+                  set up, pricing strategy, construction management, etc and help client to create a gym
+                  concept and its business model and run a successful gym facility!
+                  </p>
+                </div>
+                
+                </article>
+                
+                
+                </label>
+                <label id="summary">
+                  <input type="checkbox">
+                  <article>
+                  <div class="front">
+                  
+                    <header>
+                      <h4>Project Feasibility Reports</h4>
+                 
+                  <span>
+                        
+                  </span>
+                    </header>
+                    <var></var>
+                    <h2></h2>
+                    <img src="./images/content/20230904_171239.jpg" alt="Image Description">
+                  </div>
+                  <div class="back">
+                  <header>
+                    <h2>Summary</h2>
+                    <span>Close</span>
+                  </header>
+                  <p>
+                    If you are still planning to open a gym and seeking for an expert advice; Please reach us for
+                    a non-obligation detailed report on project feasibility and help us contribute in your success
+                    story! 
+                    
+                    </p>
+                  </div>
+                  
+                  </article>
+                  
+                  
+                  </label>
+
+
+
+                </div>
+
+
+<!-- 		
     <div class="services-container">
       <h1 class="text-style">Our Services</h1>
        <div class='a-container'>
@@ -362,7 +790,7 @@
 
           
       </div>
-      </div>
+      </div> -->
   
 	 
 		<!-- Slider -->
@@ -668,7 +1096,7 @@
             </div>
           </div>
               </div>
-                  <p style="color: #fff; font-size: 24px;">Connect with us on social media:</p>
+                  <!-- <p style="color: #fff; font-size: 24px;">Connect with us on social media:</p> -->
                   <!-- Replace the font-awesome icons with PNG images -->
                   <a href="#">
                       <img src="./images/images/fb.png" alt="Facebook" style="width: 24px; height: 24px; text-decoration: none; color: inherit;">
