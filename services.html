@@ -180,20 +180,38 @@
   background-position: center center;
   background-repeat: no-repeat;
 } */
-#cards-container {
-  position: relative;
+/* #cards-container { */
+  /* position: relative;
   overflow: hidden;
-  
-  justify-content: center; /* Horizontally center the items */
-  align-items: center; /* Vertically center the items */
+   */
+  /* justify-content: center;  */
+  /* align-items: center;  */
 
+  /* background-size: cover; */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* min-height: 100vh; */
+  /* padding: 50px;
+} */
+
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap value as needed */
+  padding: 50px;
+  min-height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 100vh; /* Ensure the container takes up at least the viewport height */
-  padding: 20px;
+  position: relative;
+  overflow: hidden;
 }
-
+#cards-container .card {
+  margin: 23px; /* Adjust the margin value as needed */
+   /* Adjust the padding value as needed */
+}
 #background-video {
   position: absolute;
   top: 0;
@@ -227,37 +245,34 @@
         <div class="" id=""></div>
         <!-- Header -->
       
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " style="background-color: rgba(0, 0, 0, 0.3);">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
           <div class="container">
             <a class="navbar-brand" href="#"><img src="images/content/logo.png" alt="Logo" title="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav" style="
-            background: black;
-        ">
-              <ul class="navbar-nav ml-auto" style='margin-left: 30%;'>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index.html" style="color: white;">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="about.html" style="color: white;">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="team.html">Team</a>
+                  <a class="nav-link" href="team.html" style="color: white;">Team</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Service</a>
+                  <a class="nav-link" href="services.html" style="color: white;">Service</a>
                 </li>
-                            <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-		
     <!-- Slider -->
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
