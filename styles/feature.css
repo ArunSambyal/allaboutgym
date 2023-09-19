@@ -99,10 +99,12 @@ nav ul li a{
 }
 nav ul li a:hover{
 	/* background-color: #EF4823; */
-    color:#ffffff;
+    /* color:#ffffff; */
 	/* box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336); */
-	transition: all ease 0.2s;
+	transition:  color 0.2s ease; ;
     
+    color: goldenrod; /* Change the text color to goldenrod on hover */
+    text-decoration: underline;
 }
 nav .menu-btn,
 .menu-icon{
