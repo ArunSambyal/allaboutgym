@@ -103,7 +103,7 @@ nav ul li a:hover{
 	/* box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336); */
 	transition:  color 0.2s ease; ;
     
-    color: goldenrod; /* Change the text color to goldenrod on hover */
+    color: goldenrod; 
     text-decoration: underline;
 }
 nav .menu-btn,
