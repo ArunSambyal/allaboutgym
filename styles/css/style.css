@@ -45,7 +45,7 @@ Assigned to: Themeforest
 -------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #777777;
@@ -72,7 +72,7 @@ a:focus {
 	outline: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
@@ -551,7 +551,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-right: 30px;
     position: relative;
     text-transform: capitalize;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
 }
 .ast_bannertext_wrapper ul li:last-child{
@@ -4212,7 +4212,7 @@ li.ast_search , li.ast_cart{
 .ast_cart_list .ast_cart_info a{
 	font-size:16px;
 	font-weight:500;
-	font-family:'Philosopher', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color:#333333;
 	margin-bottom:5px;
 	width:110px;
@@ -4232,7 +4232,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_cart_box .ast_cart_total p span{
 	float:right;
-	font-family:'Philosopher', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 .ast_cart_box .ast_cart_btn{
 	text-align:center;
@@ -5619,7 +5619,7 @@ li.ast_search , li.ast_cart{
 /* Preloader End */
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Section styling */
