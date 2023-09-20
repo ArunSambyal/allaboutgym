@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+  
+    <link rel="stylesheet" href="./styles/feature.css">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <!-- <link rel="stylesheet" href="./styles/css/footer.css"> -->
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/content/footerLogo.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+   
+    <style>
+        body {
+          padding: 0;
+          margin: 0;
+          background: #262626;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .team {
+          padding: 50px 0;
+          height: 100vh;
+          box-sizing: border-box;
+        }
+        .contner {
+          height: 80%;
+          margin: 50px auto;
+        }
+        .orow {
+          position: relative;
+          width: 100%;
+          box-sizing: border-box;
+        }
+        .our-team {
+          color: aliceblue;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          font-weight: 700;
+          font-size: 48px;
+          text-transform: uppercase;
+        }
+      
+        .paragrahs {
+          margin: 20px 0 0;
+          color: #ffff;
+          padding-left: 20px;
+          border-left: 5px solid #f00;
+        }
+      
+        .mcolumn {
+          margin: 0 10px;
+          position: relative;
+          width: calc(25% - 20px);
+          min-height: 250px;
+          background: #fff;
+          float: left;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+        .mcolumn::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(255, 0, 0, 1);
+        }
+        .mgt50px {
+          margin-top: 50px;
+        }
+        .mcolumn .imgBox {
+          position: relative;
+          text-align: center;
+        }
+        .mcolumn .imgBox img {
+          width: 100%;
+          transition: 5s;
+        }
+        .mcolumn:hover .imgBox img {
+          transform: scale(1.5);
+        }
+        .mcolumn .details {
+          position: absolute;
+          bottom: -85px;
+          left: 0;
+          padding: 10px;
+          box-sizing: border-box;
+          background: rgba(0, 0, 0, 0.9);
+          width: 100%;
+          transition: 0.5s;
+        }
+        .mcolumn:hover .details {
+          bottom: 0;
+        }
+      
+        .mcolumn .details .member-name {
+          margin: 0;
+          padding: 0;
+          color: #fff;
+          font-weight: 500;
+          text-align: right;
+          text-transform: uppercase;
+        }
+      
+        .mcolumn .details .member-name .authority {
+          margin: 0;
+          padding: 0;
+          font-size: 14px;
+          color: #f00;
+          font-weight: 900;
+          text-transform: uppercase;
+          position: relative;
+          top: -6px;
+        }
+        .mcolumn .details .ul-lists {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          float: right;
+        }
+      
+        .mcolumn .details .ul-lists .li-lists .a-list {
+          list-style: none;
+        }
+        .mcolumn .details .ul-lists .li-lists .a-list {
+          padding: 0 10px;
+          color: #fff;
+        }
+        .mcolumn .details .ul-lists .li-lists .a-list .fa {
+          transition: 0.5s;
+        }
+        .mcolumn .details .ul-lists .li-lists .a-list:hover .fa {
+          transform: rotateY(360deg);
+          color: #f00;
+        }
+        @media (max-width: 992px) {
+          .container {
+            /* height: 90%; */
+            margin: 20px auto;
+          }
+          .mcolumn {
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+          }
+        }
+      
+        @media (max-width: 600px) {
+          .contner {
+            height: 95%;
+            margin: 20px auto;
+          }
+          .mcolumn {
+            width: calc(100% - 20px);
+            margin-bottom: 20px;
+          }
+        }
+      </style>
+      
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/content/logo.png" alt="Logo" title="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html" style="color: white;">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html" style="color: white;">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <section class="team">
+        <div class="container">
+          <div class="row">
+            <h1 class="team-heading">Our Team</h1>
+            <p class="team-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                magnam error eum dolorem fuga debitis cumque alias illum aliquid?
+                Minus, iure animi. Qui similique voluptatum tempora optio
+                dignissimos fugit eius? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Nisi, esse et. Assumenda accusantium eaque,
+                architecto rerum molestias sapiente, perferendis id beatae odit
+                minima quos hic. Fuga nemo dolore deserunt exercitationem.
+            </p>
+            <div class="row mgt50px">
+              <div class="team-member">
+                <div class="member-img-box">
+                  <img src="./images/content/team (1).jpeg" />
+                  <div class="member-details">
+                    <h3 class="member-name">
+                      Manrritpaul Singh Ubhi <br />
+                      <span class="member-role">CEO and Founder</span>
+                    </h3>
+                    <ul class="social-links">
+                      <li class="social-item">
+                        <a class="social-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      </li>
+                      <li class="social-item">
+                        <a class="social-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      </li>
+                      <li class="social-item">
+                        <a class="social-link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                      </li>
+                      <li class="social-item">
+                        <a class="social-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      </li>
+                      <li class="social-item">
+                        <a class="social-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="team-member">
+                v class="member-img-box">
+                <img src="./images/content/team (1).jpeg" />
+                <div class="member-details">
+                  <h3 class="member-name">
+                    Manrritpaul Singh Ubhi <br />
+                    <span class="member-role">CEO and Founder</span>
+                  </h3>
+                  <ul class="social-links">
+                    <li class="social-item">
+                      <a class="social-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                      <a class="social-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                      <a class="social-link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                      <a class="social-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social-item">
+                      <a class="social-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    <section class="team">
+      <div class="contner">
+        <div class="orow">
+          <h1 class="our-team">Our Team</h1>
+          <p class="paragrahs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            magnam error eum dolorem fuga debitis cumque alias illum aliquid?
+            Minus, iure animi. Qui similique voluptatum tempora optio
+            dignissimos fugit eius? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Nisi, esse et. Assumenda accusantium eaque,
+            architecto rerum molestias sapiente, perferendis id beatae odit
+            minima quos hic. Fuga nemo dolore deserunt exercitationem.
+          </p>
+          <div class="orow mgt50px">
+            <div class="mcolumn">
+              <div class="imgBox">
+                <img src="./images/content/team (1).jpeg" />
+                <div class="details">
+                  <h3 class="member-name">
+                    Manrritpaul Singh Ubhi
+                    <br />
+                    <span class="authority">CEO and Founder</span>
+                  </h3>
+                  <ul class="ul-lists">
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-twitter" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-google-plus" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="mcolumn">
+              <div class="imgBox">
+                <img src="./images/content/team (2).jpeg" />
+                <div class="details">
+                  <h3 class="member-name">
+                    Amreen Chadha
+                    <br />
+                    <span class="authority">Associate Consultant</span>
+                  </h3>
+                  <ul class="ul-lists">
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a  class="a-list" href="#"
+                        ><i class="fa fa-twitter" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-google-plus" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a  class="a-list" href="#"
+                        ><i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="li-lists">
+                      <a class="a-list" href="#"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div style="clear: both"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </body>
+</html>
