@@ -1,51 +1,11 @@
 /*
-Copyright (c) 2018
-------------------------------------------------------------------
-[Master Stylesheet]
-
-Project: Astrology
-Version: 1.0
-Assigned to: Themeforest
--------------------------------------------------------------------
-
-[Table of contents]
-
-1. Body
-2. Normal css / .ast_toppadder10
-3. Header Start / .ast_top_header
-4. Menu css start / .ast_header_bottom
-5. Slider Css Start / .ast_slider_wrapper
-6. Button css start / .ast_btn
-7. Heading css start / .ast_heading
-8. About Us css start / .ast_about_wrapper
-9. Why We css start / .ast_whywe_wrapper
-10. Services css start / .ast_service_wrapper
-11. We Do css start / .ast_wedo_wrapper
-12. Timer css start / .ast_timer_wrapper
-13. Packages css start  / .ast_packages_wrapper
-14. Horoscope css start / .ast_horoscope_wrapper
-15. Gemstones css start / .ast_gemstones_wrapper
-16. Overview css start / .ast_overview_wrapper
-17. Testimonial css start / .ast_testimonial_wrapper
-18. Download Wrapper css Start / .ast_download_wrapper
-19. Footer Wrapper css start / .ast_footer_wrapper
-20. Breadcrumb Start / .ast_pagetitle
-21. Blog css start / .ast_blog_wrapper
-22. Blog Single css start / .ast_blog_comment_wrapper
-23. sidebar start / .sidebar_wrapper
-24. Pagination start / .ast_pagination
-25. Contact css start / .ast_contact_wrapper
-26. Team css end / .ast_team_wrapper
-27. Error css Start / .ast_error_wrapper
-28. Numerology css start / .ast_numerology_wrapper
-29. Tarot css start / .ast_tarot_wrapper
-30. Vastu css start / .ast_vastu_wrapper
-31. Journal css start / .ast_journal_wrapper
-32. Responsive css start / .ast_packages_box ul li
--------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
+@font-face {
+    font-family: "Bahnschrift",sans-serif;
+    src: url(../font/Bahnschrift/Bahnschrift\ 400.ttf);
+}
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #777777;
@@ -72,7 +32,7 @@ a:focus {
 	outline: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
@@ -551,7 +511,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-right: 30px;
     position: relative;
     text-transform: capitalize;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 24px;
 }
 .ast_bannertext_wrapper ul li:last-child{
@@ -4212,7 +4172,7 @@ li.ast_search , li.ast_cart{
 .ast_cart_list .ast_cart_info a{
 	font-size:16px;
 	font-weight:500;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 	color:#333333;
 	margin-bottom:5px;
 	width:110px;
@@ -4232,7 +4192,7 @@ li.ast_search , li.ast_cart{
 }
 .ast_cart_box .ast_cart_total p span{
 	float:right;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 }
 .ast_cart_box .ast_cart_btn{
 	text-align:center;
@@ -5619,7 +5579,7 @@ li.ast_search , li.ast_cart{
 /* Preloader End */
 /* Global styles */
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Bahnschrift', sans-serif;
 }
 
 /* Section styling */

@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
-
+@font-face {
+    font-family: 'Bahnschrift', sans-serif;
+    src: url(../font/Bahnschrift/Bahnschrift\ 400.ttf);
+}
 body{
+    font-family:'Bahnschrift', sans-serif;
     margin:0px;
     padding: 0px;
     background-color: #ffffff;
-    font-family: 'Josefin Sans', sans-serif;
+    
 }
 *{
     box-sizing: border-box;
@@ -83,7 +85,7 @@ nav ul{
 	transition: all ease 0.2s;
 }
 nav ul li a{
-    font-family: 'Josefin Sans', sans-serif;
+    
 	height: 63px;;
 	line-height: 43px;
 	margin: 3px;
@@ -112,7 +114,7 @@ nav .menu-btn,
 	}
 .name{
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    
 	width: 900px;
 	position: absolute;
     left: 50%;
@@ -127,14 +129,14 @@ nav .menu-btn,
     color: #c5c5c5;
 }
 .name h2{
-    font-family: 'Josefin Sans', sans-serif;
+    
 	font-size: 2.7rem;
 	margin:0px;
 	letter-spacing: 2px;
 	color:#ffffff;
 }
 .name h1{
-    font-family: 'Josefin Sans', sans-serif;
+    
 	font-size: 5rem;
 	margin:0px;
 	letter-spacing: 2px;
@@ -168,7 +170,7 @@ nav .menu-btn,
     width:100%;
     height:120vh;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +232,7 @@ nav .menu-btn,
     margin: 0px;
     color:#ffffffa6;
     font-size: 1.1rem;
-    font-family: 'Josefin Sans', sans-serif;
+    
     display: block;
     display: -webkit-box;
     max-width: 80%;
@@ -260,7 +262,7 @@ nav .menu-btn,
 
 .pr-heading{
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    
 	width: 600px;
 	position: absolute;
     left: 50%;
@@ -278,7 +280,7 @@ nav .menu-btn,
     font-size: 1.2rem;
 }
 .pr-heading h1{
-    font-family: 'Josefin Sans', sans-serif;
+    
 	font-size: 4rem;
 	margin:0px;
 	letter-spacing: 2px;
